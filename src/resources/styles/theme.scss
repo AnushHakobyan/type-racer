@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+.secondary-background-color {
+  background-color: $secondary-color;
+}
+
+.main-background-dark-color {
+  background-color: $main-color-dark;
+}
+
+.text-secondary-color-dark {
+  color: $secondary-color-dark;
+}
+
+.surface-color {
+  background-color: $surface-color;
+}
