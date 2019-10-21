@@ -7,7 +7,7 @@ import TypeRacer from '../TypeRacer';
 
 const AppDynamicContent = () => (
     <>
-        <Surface className="col-md-8">
+        <Surface>
             <div className="row center-md">
             <div className="col-md-3">
                 <Button

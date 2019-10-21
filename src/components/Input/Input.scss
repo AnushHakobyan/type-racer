@@ -1,0 +1,12 @@
+@import '../../resources/styles/variables';
+
+.textInput {
+  height: 50px;
+  border: 1.5px solid $secondary-color;
+  border-radius: 3px;
+  padding: 0 10px;
+  font-size: 14px;
+  &:focus {
+    border-color: $main-color-dark;
+  }
+}

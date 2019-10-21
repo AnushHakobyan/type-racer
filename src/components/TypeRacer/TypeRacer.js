@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import TextContainer from '../TextContainer';
 import Button from '../Button';
+import Input from '../Input/Input';
 
 const PARAGRAPHS_COUNT = 1;
 
@@ -37,7 +38,10 @@ const TypeRacer = () => {
                     onClick={getNewText}
                 />
             ) : (
-                <TextContainer title={data.title} text={data.text} />
+                <>
+                    <TextContainer title={data.title} text={data.text} />
+                    <Input name="text" placeHolder="Type" />
+                </>
             )}
         </div>
     );

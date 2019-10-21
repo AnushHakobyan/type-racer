@@ -5,7 +5,7 @@ import Heading from '../Heading/Heading';
 import styles from './Header.scss';
 
 const Header = () => (
-    <header className={classNames('main-background-dark-color', styles.header)}>
+    <header className={classNames('main-background-color', styles.header)}>
         <Logo />
         <div className={styles.slogan}>
             <Heading text="Challenge Yourself" type="h1" />
