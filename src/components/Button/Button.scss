@@ -1,3 +1,4 @@
+@import '../../resources/styles/variables';
 .buttonBody {
   padding: 15px 8px;
   border-radius: 3px;
@@ -5,6 +6,16 @@
   text-transform: uppercase;
   display: block;
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
 }
 
+.contained {
+  background-color: $main-color;
+  color: #737373;
+}
 
+.outlined {
+  border: 1px solid $main-color;
+  color: $main-color;
+}

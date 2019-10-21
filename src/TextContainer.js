@@ -1,7 +1,7 @@
 import React from 'react';
 
-const TextContainer = () => (
-    <div></div>
+const TextContainer = ({ children }) => (
+    <div>{children}</div>
 );
 
 export default TextContainer;

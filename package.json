@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/AnushHakobyan/type-racer#readme",
   "dependencies": {
+    "@babel/runtime": "^7.6.3",
     "flexboxgrid": "^6.3.1",
+    "history": "^4.10.1",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -34,6 +36,7 @@
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
     "babel-loader": "^8.0.6",

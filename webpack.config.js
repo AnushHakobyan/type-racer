@@ -9,6 +9,18 @@ const htmlWebpackPlugin = new HtmlWebPackPlugin({
 
 module.exports = {
     entry: './src/index.js',
+    devServer: {
+        historyApiFallback: true,
+        contentBase: [path.resolve(__dirname, 'dist')],
+    },
+    resolve: {
+        extensions: ['.js'],
+        modules: [
+            path.resolve(__dirname, 'src'),
+            'node_modules',
+        ],
+    },
+    devtool: 'source-map',
     module: {
         rules: [
             {
